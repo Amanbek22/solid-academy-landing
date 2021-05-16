@@ -43,20 +43,21 @@
     </section>
     <h2>Получи видео вебинар</h2>
     <section class="section2">
-        <form>
+        <form action="mail.php" method="POST">
             <label>
                 <span>Имя Фамилия <span class="red">*</span></span>
-                <input required type="text" placeholder="Имя Фамилия">
+                <input required type="text" placeholder="Имя Фамилия" name="name">
             </label>
             <label>
                 <span>Email</span>
-                <input type="email" placeholder="Email">
+                <input type="email" placeholder="Email" name="email">
             </label>
             <label>
                 <span>Номер <span class="red">*</span></span>
-                <input required type="number" placeholder="Номер">
+                <input required type="number" placeholder="Номер" name="phone">
             </label>
-            <button>Отправит</button>
+            <!-- <button>Отправит</button> -->
+            <input type="submit" value="Отправить" name="submit">
         </form>
         <img src="./webinar.png">
     </section>
