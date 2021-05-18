@@ -97,6 +97,7 @@ main > div > p{
 .section2 img{
     width: 50%;
     height: 50%;
+    margin-right: -40px;
 }
 .section2 form, .section2 label {
     display: flex;
@@ -162,6 +163,9 @@ footer{
         width: 40%;
         height: 40%;
     }
+    .section > img {
+        margin: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -196,5 +200,8 @@ footer{
     }
     footer > div {
         margin-bottom: 25px;
+    }
+    footer > iframe {
+        width: 100%;
     }
 }
